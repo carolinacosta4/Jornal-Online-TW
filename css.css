@@ -13,11 +13,7 @@ body {margin : 0;}
 }
   
   
-<<<<<<< HEAD
-.flex-container {
-=======
 #navbar .flex-container {
->>>>>>> cd66372c755f285f29041589515476c3dd4c8ce8
   display: flex;
   justify-content: space-between;
   background-color: #a6a6a6;
@@ -56,9 +52,6 @@ body {margin : 0;}
   width: 44px;
   height: 44px;
 }
-<<<<<<< HEAD
-
-=======
 
 .another-container p {
   display:inline-block;
@@ -70,7 +63,6 @@ body {margin : 0;}
   text-align: center;
 }
 
->>>>>>> cd66372c755f285f29041589515476c3dd4c8ce8
 .news h1{
   text-align:center;
 }
@@ -80,8 +72,6 @@ body {margin : 0;}
   margin-right: auto;
 }
 
-<<<<<<< HEAD
-=======
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -157,7 +147,6 @@ body {margin : 0;}
   font-weight: bold;
 }
 
->>>>>>> cd66372c755f285f29041589515476c3dd4c8ce8
 #contactos{
   text-align:center;
 }
@@ -178,25 +167,6 @@ body {margin : 0;}
   border-radius: 150px;
 }
   
-<<<<<<< HEAD
-/* Add a black background color to the top navigation */
-.topnav {
-  width: 100%;
-    background-color: #808080;
-    overflow: auto;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    width: 15%;
-  }
-=======
 .topnav {
   width: 100%;
   background-color: #808080;
@@ -212,7 +182,6 @@ body {margin : 0;}
   font-size: 17px;
   width: 15%;
 }
->>>>>>> cd66372c755f285f29041589515476c3dd4c8ce8
   
 .topnav a:hover {
   background-color: #ddd;
@@ -268,53 +237,6 @@ body {margin : 0;}
   display: block;
 }
   
-<<<<<<< HEAD
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .mais_noticias {
-    width: 120%;
-    margin: 0 auto;
-  }
-  
-  .grid-container {
-    display: inline-grid;
-    column-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 332px;
-    height: 200px;
-    background: #ffffff;
-    font-size: 20px;
-    color: black;
-    vertical-align: top;
-    margin: 0 25px;
-    width: 80%;
-  }
-  .mais_noticias>p {
-    font-size: 20px;
-    margin: 10px 25px;
-  }
-
-  .grid-container a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .grid-container p {
-    width: 80%;
-    margin: 0px;
-    text-align: left;
-
-  }
-
-.grid-container img {
-    width: 80%;
-    text-align: center;
-  }
-=======
 .mais_noticias {
   width: 120%;
   margin: 0 auto;
@@ -359,4 +281,3 @@ body {margin : 0;}
   width: 80%;
   text-align: center;
 }
->>>>>>> cd66372c755f285f29041589515476c3dd4c8ce8
