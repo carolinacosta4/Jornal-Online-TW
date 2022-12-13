@@ -1,4 +1,6 @@
-body {margin : 0;}
+body {
+  margin : 0;
+}
 
 #form {
   background-color: #ffffff;
@@ -155,8 +157,14 @@ body {margin : 0;}
   text-align:right;
 }
 
-#main-footer.flex-container{
+#main-footer.another-container{
   line-height:normal;
+}
+
+.flex-container {
+  background-color: #a6a6a6;
+  align-items: center;
+  margin: 0px 0px;
 }
 
 .new1{
