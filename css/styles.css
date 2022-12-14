@@ -1,0 +1,136 @@
+.news h1{
+  text-align:center;
+}
+  
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 45px;
+}
+
+.ultimas_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 0 25px;
+}
+
+.ultimas_grid a{
+  text-decoration: none;
+  color: black;
+}
+
+.titulos_ultimas p:first-of-type{
+  font-size: 12px;
+}
+
+.titulos_ultimas p{
+  line-height: 0px;
+}
+
+.grid_ultimas_noticias{
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-template-rows:50px 50px 50px;
+  row-gap: 5px;
+  column-gap: 5px;
+  text-align: left;
+  align-items: center;
+}
+
+.texto_grid{
+  display: grid;
+  grid-template-rows: 0px 50px;
+  row-gap: 8px;
+}
+
+.texto_grid p:first-of-type{
+  font-size: 12px;
+}
+
+.trending>p{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.trending_articles{
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows:50px 50px 50px 50px;
+  text-align: left;
+}
+
+.trending_articles{
+  text-decoration: none;
+  color: black;  
+}
+
+.trending_articles p{
+  display: flex;
+  align-items: center;
+}
+.number {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.new1{
+  text-align: center;
+}
+
+.images{
+  border-radius: 150px;
+}
+
+.mais_noticias {
+  width: 120%;
+  margin: 0 auto;
+}
+  
+.grid-container {
+  display: inline-grid;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 332px;
+  height: 200px;
+  background: #ffffff;
+  font-size: 20px;
+  color: black;
+  vertical-align: top;
+  margin: 0 25px;
+  width: 80%;
+}
+.mais_noticias>p, .ultimas_noticias>p {
+  font-size: 20px;
+  margin: 10px 25px;
+}
+
+.trending>p {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.grid-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-container p {
+  width: 80%;
+  margin: 0px;
+  text-align: left;
+}
+
+.grid-container img {
+  width: 80%;
+  text-align: center;
+}
