@@ -1,7 +1,29 @@
 #contactos{
-    text-align:center;
-  }
+  text-align:center;
+}
   
-  #back{
-    text-align:right;
-  }
+#back{
+  text-align:right;
+}
+
+#contactos{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  column-gap: 0px;
+}
+
+.grid p {
+  margin: 2px;
+}
+
+.termos{
+  margin:0px;
+  margin-right: 120px;
+}

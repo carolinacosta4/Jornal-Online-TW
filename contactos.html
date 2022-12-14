@@ -71,6 +71,7 @@
       </div>      
   </div>
         <nav id="contactos">
+          <div class="more">
             <h1>Contactos</h1>
             <form>
                 <select name="cars" id="cars">
@@ -85,19 +86,24 @@
                 <p>     </p>
                 <input type="text" name="nome" id="nome" placeholder="Nome"><br>
                 <p>     </p>
-                <input type="text" name="email" id="email" placeholder="Email"><br>
+                <input type="text" name="email" id="email" placeholder="Email" required><br>
                 <p>     </p>
-                <textarea name="message" rows="10" cols="30" placeholder="A sua mensagem"></textarea>
-                <p>     </p>
-                <input type="checkbox" name="termos" id="termos">Aceito os termos<input type="submit" value="Enviar">
+                <textarea name="message" rows="10" cols="30" placeholder="A sua mensagem" required></textarea>
+                <div class="termos">
+                  <input type="checkbox" name="termos" id="termos" required>Aceito os termos
+                </div>
+                <input type="submit" value="Enviar">
             </form>
-            <h3>Endereços</h3>
-            <p>Jornal...</p>
-            <p>Rua D. Sancho I, n.º 981</p>
-            <p>Vila do Conde Portugal</p>
-            <p>+351 252 291 700</p>
-            <p>geral@esmad.ipp.pt</p>
-            <p>Dias úteis das 8h00 às 18h00.</p>
+          </div>
+          <div class="more2">
+            <h1>Endereços</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3614374759904!2d-8.741617385292779!3d41.36623140527072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd244419ac8a36b3%3A0x9219b42064878c38!2sEscola%20Superior%20de%20Media%20Artes%20e%20Design%20-%20Polit%C3%A9cnico%20do%20Porto!5e0!3m2!1spt-PT!2spt!4v1671057312921!5m2!1spt-PT!2spt" width="500" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="grid">
+              <p>Rua D. Sancho I, n.º 981</p>
+              <p>Vila do Conde Portugal</p>
+              <p>+351 252 291 700</p>
+              <p>geral@esmad.ipp.pt</p>
+            </div>
         </nav>
         <nav id="back">
             <a href="inicial.html">Voltar para a página inicial</a>
@@ -119,5 +125,6 @@
             </div>
           </div>
         </footer>
+        <script src="js/myscript.js"></script>
 </body>
 </html>
