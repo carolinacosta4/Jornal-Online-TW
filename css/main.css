@@ -25,10 +25,15 @@ body {
     align-items: center;
   }
       
+.icons{
+  margin-top: 250px;
+  margin-left: 85px;
+}
+
   .instagram, .facebook, .mail, .account{
     display: flex;
   }
-  
+
   #query {
     all: unset;
     font: 16px;
@@ -57,6 +62,7 @@ body {
     cursor: pointer;
     width: 44px;
     height: 44px;
+    color: white;
   }
   
   .sidenav {
@@ -66,7 +72,7 @@ body {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: #4d4d4d;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -81,13 +87,13 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #000000;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #ffffff;
   }
   
   .sidenav .closebtn {
@@ -204,7 +210,12 @@ body {
 
   .container  {
     text-align: center;
+    font-weight: lighter;
   }
+
+.footer-links{
+  font-weight: lighter;
+}
 
 @media screen and (max-device-width: 480px){
 
