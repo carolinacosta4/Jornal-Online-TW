@@ -1,6 +1,13 @@
 body {
-    margin : 0;
-  }
+  background-color: white;
+  color: black;
+  margin : 0;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
   #form {
     background-color: #ffffff;
@@ -30,7 +37,7 @@ body {
   margin-left: 85px;
 }
 
-  .instagram, .facebook, .mail, .account{
+  .instagram, .facebook, .mail, .account, .dark-mode{
     display: flex;
   }
 
@@ -57,7 +64,7 @@ body {
   }
 
 
-  .instagram, .facebook, .mail, .search, .account {
+  .instagram, .facebook, .mail, .search, .account, .dark-mode {
     all: unset;
     cursor: pointer;
     width: 44px;
@@ -187,6 +194,10 @@ body {
     align-items: center;
   }
   
+.flex-container{
+  margin-bottom: 0px;
+}
+
   .flex-container {
     background-color: #a6a6a6;
     margin: 0px 0px;
@@ -210,48 +221,65 @@ body {
 
   .container  {
     text-align: center;
-    font-weight: lighter;
   }
 
-.footer-links{
-  font-weight: lighter;
+img {
+  width: 100%;
+  height: auto;
 }
+
 
 @media screen and (max-device-width: 480px){
 
-  #navbar{
-    width: 120%
+  .icons{
+    margin-top: 380px;
+    margin-left: 35px;
+  }
+    
+  .sidenav {
+    margin-right: 45px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 20px;
+  }
+    
+  .sidenav .closebtn {
+    right: 56px;
+    font-size: 40px;
+  }
+      
+  .topnav a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+  
+  .dropdown a:hover {
+    width: 100px;
+  }
+
+  .dropdown-content {
+      width: 132px;
+    }
+  
+  .another-container p {
+    margin: auto 25px;
+    padding:5px;
   }
 
   #form {
-    width: 240px;
-    margin: 0px 10px;
-  }
-
-  
-  .grid{
-    width: 120%;
-  }
-  
-  .ultimas_grid{
-    width: 110%;
-  }
-
-  .topnav {
-    width: 120%;
-  }
-      
-  .mais_noticias {
-    width: 140%;
+    width: 150px;
   }
  
   .another-container {
-    width: 120%;
+    width: 100%;
   }
    
   .container {
-    font-size: 12px;
+    font-size: 14px;
   }
-
 
   }

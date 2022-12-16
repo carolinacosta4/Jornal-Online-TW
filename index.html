@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/inicial.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jornal</title>
 </head>
-<body>
+<body >
   <div class="navigation">
     <nav id="navbar">
         <div class="flex-container">
@@ -19,6 +20,9 @@
           </form>
           <p>NOME</p>
           <div class="flex-container">
+            <button class="dark-mode" onclick="myFunction()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm2 0c0-5.292 4.113-9.612 9.315-9.965-3.205 2.154-5.315 5.813-5.315 9.965s2.11 7.811 5.315 9.965c-5.202-.353-9.315-4.673-9.315-9.965z"/></svg>
+            </button>
             <button class = "account">
               <a href="#login">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M12 2c3.032 0 5.5 2.467 5.5 5.5 0 1.458-.483 3.196-3.248 5.59 4.111 1.961 6.602 5.253 7.482 8.909h-19.486c.955-4.188 4.005-7.399 7.519-8.889-1.601-1.287-3.267-3.323-3.267-5.61 0-3.033 2.468-5.5 5.5-5.5zm0-2c-4.142 0-7.5 3.357-7.5 7.5 0 2.012.797 3.834 2.086 5.182-5.03 3.009-6.586 8.501-6.586 11.318h24c0-2.791-1.657-8.28-6.59-11.314 1.292-1.348 2.09-3.172 2.09-5.186 0-4.143-3.358-7.5-7.5-7.5z"/></svg>
@@ -29,7 +33,7 @@
                 <a href="#account">Account</a>
                 <a href="#About">About</a>
                 <a href="#Categorias">Categorias</a>
-                <a href="#Clientes">Clientes</a>
+                <a href="html/clientes.html">Clientes</a>
                 <a href="html/contactos.html">Contactos</a>
                 <div class="icons">
                     <button class="instagram">
@@ -56,10 +60,9 @@
               </div>
             </div>
           </div>
-        </div>
     </nav>
     <div class="topnav">
-        <a class="active" href="inicial.html">Home</a>
+        <a class="active" href="../index.html">HOME</a>
         <a href="#pop">POP</a>
         <a href="#kpop">K-POP</a>
         <a href="#hiphop">HIP-HOP</a>
@@ -74,7 +77,7 @@
             </div>
         </div>      
     </div>
-</div>
+  </div>
 
     <main>
         <section>
@@ -82,11 +85,12 @@
             <p id="destaques">Destaques</p>
           <div class="grid-slideshow">
             <a href="#noticia" class="grid-slides">
-              <img alt= "image" src="img/noticia-destaque1.jpeg">
+              <img alt= "image" src="img/noticia-destaque1.jpeg" class="slides-img">
               <section class="slides_grid">
                 <p>06 dezembro 22 - 3 min read</p>
                 <p id="text"><b>Arctic Monkeys confirmados para o 2.º dia do NOS Alive</b></p>
                 <p id="desenvolvimento">A banda britânica regressa a Portugal para subir ao palco do NOS Alive, no dia 7 de julho.</p>
+                <p class="ler-mais">Ler mais</p>
               </section>
             </a>
           </div>
@@ -97,11 +101,12 @@
             <p id="destaques">Destaques</p>
           <div class="grid-slideshow">
             <a href="#noticia" class="grid-slides">
-              <img alt= "image" src="img/noticia-destaque2.jpeg">
+              <img alt= "image" src="img/noticia-destaque2.jpeg" class="slides-img">
               <section class="slides_grid">
                 <p>18 november 22 - 3 min read</p>
-                <p id="text"><b>Grammys Latinos 2022: Chuva de estrelas, glamour e ousadia na red carpet</b></p>
+                <p id="text"><b>Grammys Latinos 2022: Chuva de estrelas, glamour e ousadia.</b></p>
                 <p id="desenvolvimento">Anitta, Rosalía, Christina Aguilera, Georgina Rodríguez e Ludmilla estiveram entre os rostos conhecidos a marcar presença no evento.</p>
+                <p class="ler-mais">Ler mais</p>
               </section>
             </a>
           </div>
@@ -119,20 +124,20 @@
                 <p><b>Lizzo estreia-se em Portugal nos NOS Alive de 2023</b></p>
             </a>
             <a href="#noticia" class="grid_ultimas_noticias">
-              <img alt= "image" src="img/noticia-ultima2.jpeg">
+              <img alt= "image" src="img/noticia-ultima2.jpeg" class="ultimas-img">
               <section class="texto_grid">
                 <p>30 Novembro 2022 - 3 min read</p>
                 <p><b>Morreu Chritine McVie</b></p>
               </section>
-              <img alt= "image" src="img/noticia-ultima3.jpeg">
+              <img alt= "image" src="img/noticia-ultima3.jpeg" class="ultimas-img">
               <section class="texto_grid">
                 <p>30 Novembro 2022 - 3 min read</p>
                 <p><b>Rihanna volta ao mundo</b></p>
               </section>
-              <img alt= "image" src="img/noticia-ultima4.jpeg">
+              <img alt= "image" src="img/noticia-ultima4.jpeg" class="ultimas-img">
               <section class="texto_grid">
                 <p>08 Dezembro 2022 - 3 min read</p>
-                <p><b>Novo single de Lana Del Rey</p>
+                <p><b>Novo single de Lana Del Rey</b></p>
               </section>
             </a>
           </div>

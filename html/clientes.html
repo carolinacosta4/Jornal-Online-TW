@@ -2,10 +2,10 @@
 <html lang='en' class=''>
   <head>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/contacts.css">
+    <link rel="stylesheet" type="text/css" href="../css/clientes.css">
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
+    <title>Clientes</title>
   </head>
   <body>
     <div class="navigation">
@@ -77,60 +77,121 @@
           </div>      
       </div>
     </div>
-    <main>
-        <nav id="contactos">
-          <div class="more">
-            <h1>Contactos</h1>
+    <div class="grid">
+      <main>
+          <h2>Avaliação dos Utilizadores</h2>
+          <p>Média de 4.1 de 254 avaliações.</p>
+          <hr style="margin: 0px; border:solid #f1f1f1">
+          <p></p>
+          <div class="avaliacao-container">
+            <div>5 estrelas</div>
+            <div class="bar-container">
+            <div class="bar-5"></div>
+            </div>
+            <div>150</div>
+            <br>
+          </div>
+          <div class="avaliacao-container">
+            <div>4 estrelas</div>
+            <div class="bar-container">
+            <div class="bar-4"></div>
+            </div>
+            <div>63</div>
+            <br>
+          </div>
+          <div class="avaliacao-container">
+            <div>3 estrelas</div>
+            <div class="bar-container">
+            <div class="bar-3"></div>
+            </div>
+            <div>15</div>
+            <br>
+          </div>
+          <div class="avaliacao-container">
+            <div>2 estrelas</div>
+            <div class="bar-container">
+            <div class="bar-2"></div>
+            </div>
+            <div>20</div>
+            <br>
+          </div>
+          <div class="avaliacao-container">
+            <div>1 estrela</div>
+            <div class="bar-container">
+            <div class="bar-1"></div>
+            </div>
+            <div>6</div>
+            <br>
+          </div>
+        </main>
+        <div class="review-us">
+            <h2>Avalie-nos!</h2>
             <form>
-                <select name="cars" id="cars">
-                    <option value=0>Selecione o assunto</option>
-                    <option value="volvo">Publicidade</option>
-                    <option value="saab">Questões comerciais</option>
-                    <option value="opel">Questões relacionadas ao Marketing</option>
-                    <option value="audi">Subscrição ao jornal</option>
-                    <option value="audi">Outros</option>
-                </select>
-                <br>
-                <p>     </p>
-                <input type="text" name="nome" id="nome" placeholder="Nome"><br>
-                <p>     </p>
-                <input type="text" name="email" id="email" placeholder="Email" required><br>
-                <p>     </p>
-                <textarea name="message" rows="10" cols="30" placeholder="A sua mensagem" required></textarea>
-                <div class="termos">
-                  <input type="checkbox" name="termos" id="termos" required>Aceito os termos
-                </div>
-                <input type="submit" value="Enviar">
+              <label for="nome">Nome:</label>
+              <input type="text" required><br>
+              <p></p>
+              <label for="mensagem">Mensagem:</label><br>
+              <textarea name="message" rows="10" cols="30"></textarea><br>
+              <p></p>
+              <label for="avaliação">Avaliação (1 a 5):</label>
+              <input type="number" id="quantity" name="quantity" min="1" max="5" required>
+              <br>
+              <p></p>
+              <input id= "enviar" type="submit" value="Enviar">
             </form>
+        </div>
+    </div>
+    <hr>
+    <div class="avaliacoes-utilizadores">
+      <h2>Algumas avaliações dos nossos utilizadores</h2>
+      <div class="reviews">
+        <div class="card">
+          <img src="../img/random-person1.jpg" alt="image">
+          <div class="container">
+            <h4><b>Miguel da Mota</b></h4>
+            <p>Gosto muito deste jornal, é organizado e dá todas as informações sobre os nossos músicos preferidos!</p>
           </div>
-          <div class="more2">
-            <h1>Endereços</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3614374759904!2d-8.741617385292779!3d41.36623140527072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd244419ac8a36b3%3A0x9219b42064878c38!2sEscola%20Superior%20de%20Media%20Artes%20e%20Design%20-%20Polit%C3%A9cnico%20do%20Porto!5e0!3m2!1spt-PT!2spt!4v1671057312921!5m2!1spt-PT!2spt" width="500" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="grid">
-              <p>Rua D. Sancho I, n.º 981</p>
-              <p>Vila do Conde Portugal</p>
-              <p>+351 252 291 700</p>
-              <p>geral@esmad.ipp.pt</p>
-            </div>
-        </nav>
-      </main>
-        <footer id="main-footer">
-          <div class="flex-container">
-            <div class="another-container">
-              <p><a href="contactos.html">Contactos</a></p>
-             <p>|</p>
-              <p><a href="termos.html">Termos e Privacidade</a></p>
-              <p>|</p>
-              <p><a href="subscrever.html">Subscrever</a></p>
-              <p>|</p>
-              <p><a href="categorias.html">Categorias</a></p>
-            </div>
-            <div class="container">
-              <p>O melhor jornal com as notícias dos seus músicos favoritos</p>
-              <p>Jornal... &copy; Todos os direitos reservados</p>
-            </div>
+        </div>
+        <div class="card">
+          <img src="../img/random-person2.jpg" alt="image">
+          <div class="container">
+            <h4><b>Luis Lima</b></h4>
+            <p>Como um grande admirador de música adoro este website. Aprendi a usar a Internet só por causa deste jornal.</p>
           </div>
-        </footer>
-      <script src="../js/myscript.js"></script>
-  </body>
+        </div>
+        <div class="card">
+          <img src="../img/random-person3.jpg" alt="image">
+          <div class="container">
+            <h4><b>Cecília Silveira</b></h4>
+            <p>Música é uma das minhas grandes paixões, assim, gosto muito de saber notícias sobre concertos e uso este jornal como a minha principal fonte de informação.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../img/random-person4.jpg" alt="image">
+          <div class="container">
+            <h4><b>Levi Moreira</b></h4>
+            <p>Desde pequeno que gosto muito de tocar piano, este jornal dá-me as principais informações sobre vários pianistas que me inspiram.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="main-footer">
+        <div class="flex-container">
+          <div class="another-container">
+            <p><a href="contactos.html">Contactos</a></p>
+           <p>|</p>
+            <p><a href="termos.html">Termos e Privacidade</a></p>
+            <p>|</p>
+            <p><a href="subscrever.html">Subscrever</a></p>
+            <p>|</p>
+            <p><a href="categorias.html">Categorias</a></p>
+          </div>
+          <div class="container">
+            <p>O melhor jornal com as notícias dos seus músicos favoritos</p>
+            <p>Jornal... &copy; Todos os direitos reservados</p>
+          </div>
+        </div>
+      </footer>
+    <script src="../js/myscript.js"></script>
+</body>
 </html>

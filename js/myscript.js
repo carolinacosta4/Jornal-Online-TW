@@ -20,3 +20,8 @@ function carousel() {
   x[slideIndex-1].style.display = "block"; 
   setTimeout(carousel, 2000); 
 }
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

@@ -1,12 +1,9 @@
-#contactos{
-  text-align:center;
-}
-  
-#back{
-  text-align:right;
+main{
+  margin-bottom: 25px;
 }
 
 #contactos{
+  text-align:center;
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
