@@ -25,13 +25,8 @@ body {
     align-items: center;
   }
       
-  .instagram, .facebook, .mail, .account, .menu{
+  .instagram, .facebook, .mail, .account{
     display: flex;
-  }
-  
-  .sidenav{
-    margin-top: 4px;
-    margin-right: 5px;
   }
   
   #query {
@@ -55,8 +50,9 @@ body {
     height: 24px;
     padding: 10px;
   }
-  
-  .instagram, .facebook, .mail, .search, .account, .menu {
+
+
+  .instagram, .facebook, .mail, .search, .account {
     all: unset;
     cursor: pointer;
     width: 44px;
@@ -76,6 +72,11 @@ body {
     padding-top: 60px;
   }
   
+  .menu{
+    margin-right: 20px;
+    margin-top: 2px;
+  }
+
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -216,10 +217,6 @@ body {
     margin: 0px 10px;
   }
 
-  .sidenav sgv{
-    margin-top: 10px;
-    margin-right: 10px;
-  }
   
   .grid{
     width: 120%;
