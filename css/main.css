@@ -229,15 +229,15 @@ img {
 }
 
 
-@media screen and (max-device-width: 480px){
+@media screen and (max-width: 480px){
 
   .icons{
-    margin-top: 380px;
-    margin-left: 35px;
+    margin-top: 300px;
+    margin-left: 70px;
   }
     
   .sidenav {
-    margin-right: 45px;
+    margin-right: 0px;
   }
 
   .sidenav a {
@@ -246,7 +246,7 @@ img {
   }
     
   .sidenav .closebtn {
-    right: 56px;
+    right: 15px;
     font-size: 40px;
   }
       
@@ -283,3 +283,210 @@ img {
   }
 
   }
+
+@media screen and (min-width: 480px){
+
+  .icons{
+    margin-top: 200px;
+    margin-left: 70px;
+  }
+      
+  .sidenav {
+    margin-right: 0px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 20px;
+  }
+      
+  .sidenav .closebtn {
+    right: 15px;
+    font-size: 40px;
+  }
+        
+  .topnav a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 15%;
+  }
+    
+  .dropdown a:hover {
+    width: 100px;
+  }
+  
+  .dropdown-content {
+    width: 132px;
+  }
+    
+  .another-container p {
+    margin: auto 15px;
+    padding:5px;
+  }
+  
+  #form {
+    width: 150px;
+  }
+   
+  .another-container {
+    width: 100%;
+  }
+     
+  .container {
+    font-size: 16px;
+  }
+  
+    }
+
+@media screen and (min-width: 768px){
+
+  .icons{
+    margin-top: 220px;
+    margin-left: 70px;
+  }
+        
+  .sidenav {
+    margin-right: 0px;
+  }
+          
+  .sidenav .closebtn {
+    right: 15px;
+    font-size: 40px;
+  }
+    
+  .topnav a {
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 13%;
+  }
+    
+  .dropdown-content {
+    width: 132px;
+  }
+    
+  .another-container p {
+    margin: auto 12px;
+    padding:10px;
+    font-size: 18px;
+  }
+    
+  .container {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px){
+
+  .icons{
+    margin-top: 220px;
+    margin-left: 70px;
+  }
+    
+  .sidenav {
+    margin-right: 0px;
+  }
+      
+  .sidenav .closebtn {
+    right: 15px;
+    font-size: 40px;
+  }
+
+  .topnav a {
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 14%;
+  }
+
+  .dropdown-content {
+    width: 132px;
+  }
+
+  .another-container p {
+    margin: auto 15px;
+    padding:10px;
+    font-size: 20px;
+  }
+
+  .container {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+
+  .icons{
+    margin-top: 320px;
+    margin-left: 70px;
+  }
+    
+  .sidenav {
+    margin-right: 0px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+  }
+      
+  .sidenav .closebtn {
+    right: 15px;
+    font-size: 45px;
+  }
+
+  .dropdown-content {
+    width: 132px;
+  }
+
+  .another-container p {
+    margin: auto 15px;
+    padding:5px;
+  }
+
+  .container {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1900px){
+
+  .icons{
+    margin-top: 570px;
+    margin-left: 70px;
+  }
+    
+  .sidenav {
+    margin-right:0px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 30px;
+  }
+      
+  .sidenav .closebtn {
+    right: 20px;
+    font-size: 50px;
+  }
+
+  .topnav a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 17%;
+  }
+
+  .dropdown-content {
+    width: 132px;
+  }
+
+  .another-container p {
+    margin: auto 50px;
+    padding:5px;
+    font-size: 26px;
+  }
+
+  .container {
+    font-size: 27px;
+  }
+}
