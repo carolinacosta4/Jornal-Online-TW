@@ -1,25 +1,18 @@
 body {
-  background-color: white;
-  color: black;
   margin : 0;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+#form {
+  background-color: #ffffff;
+  border-color: black;
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin: 5px;
 }
-
-  #form {
-    background-color: #ffffff;
-    border-color: black;
-    width: 200px;
-    height: 35px;
-    border-radius: 20px;
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    margin: 5px;
-  }
     
 #navbar{
   width:100%;
@@ -64,12 +57,11 @@ body {
   }
 
 
-  .instagram, .facebook, .mail, .search, .account, .dark-mode {
+  .instagram, .facebook, .mail, .search, .account{
     all: unset;
     cursor: pointer;
     width: 44px;
     height: 44px;
-    color: white;
   }
   
   .sidenav {
@@ -416,7 +408,7 @@ img {
 @media screen and (min-width: 1200px){
 
   .icons{
-    margin-top: 320px;
+    margin-top: 250px;
     margin-left: 70px;
   }
     
