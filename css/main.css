@@ -21,7 +21,6 @@ body {
   #navbar .flex-container {
     display: flex;
     justify-content: space-between;
-    background-color: #a6a6a6;
     align-items: center;
   }
       
@@ -185,10 +184,7 @@ body {
     line-height:normal;
     align-items: center;
   }
-  
-.flex-container{
-  margin-bottom: 0px;
-}
+
 
   .flex-container {
     background-color: #a6a6a6;
@@ -441,6 +437,9 @@ img {
 }
 
 @media screen and (min-width: 1900px){
+  #form {
+    width: 250px;
+  }
 
   .icons{
     margin-top: 570px;
