@@ -1,0 +1,21 @@
+.grid-categorias{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    column-gap: 8px;
+    width: 70%;
+    margin-left: 200px;
+}
+
+.container img {
+    border-radius: 20px;
+}
+
+h2{
+    margin-left:200px;
+}
+
+.categorias a{
+    text-decoration: none;
+    color: black; 
+}

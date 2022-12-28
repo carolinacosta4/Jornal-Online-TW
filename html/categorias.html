@@ -2,10 +2,10 @@
 <html lang='en' class=''>
   <head>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/contacts.css">
+    <link rel="stylesheet" type="text/css" href="../css/categorias.css">
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
+    <title>Clientes</title>
   </head>
   <body>
     <div class="navigation">
@@ -28,7 +28,7 @@
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                   <a href="#account">Account</a>
                   <a href="#About">About</a>
-                  <a href="categorias.html">Categorias</a>
+                  <a href="#Categorias">Categorias</a>
                   <a href="clientes.html">Clientes</a>
                   <a href="contactos.html">Contactos</a>
                   <div class="icons">
@@ -74,60 +74,76 @@
           </div>      
       </div>
     </div>
-    <main>
-        <nav id="contactos">
-          <div class="more">
-            <h1>Contactos</h1>
-            <form>
-                <select name="cars" id="cars">
-                    <option value=0>Selecione o assunto</option>
-                    <option value="volvo">Publicidade</option>
-                    <option value="saab">Questões comerciais</option>
-                    <option value="opel">Questões relacionadas ao Marketing</option>
-                    <option value="audi">Subscrição ao jornal</option>
-                    <option value="audi">Outros</option>
-                </select>
-                <br>
-                <p>     </p>
-                <input type="text" name="nome" id="nome" placeholder="Nome"><br>
-                <p>     </p>
-                <input type="text" name="email" id="email" placeholder="Email" required><br>
-                <p>     </p>
-                <textarea name="message" rows="10" cols="30" placeholder="A sua mensagem" required></textarea>
-                <div class="termos">
-                  <input type="checkbox" name="termos" id="termos" required>Aceito os termos
-                </div>
-                <input type="submit" value="Enviar">
-            </form>
-          </div>
-          <div class="more2">
-            <h1>Endereços</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3614374759904!2d-8.741617385292779!3d41.36623140527072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd244419ac8a36b3%3A0x9219b42064878c38!2sEscola%20Superior%20de%20Media%20Artes%20e%20Design%20-%20Polit%C3%A9cnico%20do%20Porto!5e0!3m2!1spt-PT!2spt!4v1671057312921!5m2!1spt-PT!2spt" width="500" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="grid">
-              <p>Rua D. Sancho I, n.º 981</p>
-              <p>Vila do Conde Portugal</p>
-              <p>+351 252 291 700</p>
-              <p>geral@esmad.ipp.pt</p>
-            </div>
-        </nav>
-      </main>
-        <footer id="main-footer">
-          <div class="flex-container">
-            <div class="another-container">
-              <p><a href="contactos.html">Contactos</a></p>
-             <p>|</p>
-              <p><a href="termos.html">Termos e Privacidade</a></p>
-              <p>|</p>
-              <p><a href="subscrever.html">Subscrever</a></p>
-              <p>|</p>
-              <p><a href="categorias.html">Categorias</a></p>
+    <div class="categorias">
+        <h2>Categorias</h2>
+        <div class="grid-categorias">
+            <div class="container">
+              <a href="#pop">
+                <img src="../img/pop-icon.jpg">
+                <p>POP</p>
+              </a>
             </div>
             <div class="container">
-              <p>O melhor jornal com as notícias dos seus músicos favoritos</p>
-              <p>Jornal... &copy; Todos os direitos reservados</p>
+            <a href="#kpop">
+                <img src="../img/kpop-icon.jpg">
+                <p>K-POP</p>
+              </a>
             </div>
+            <div class="container">
+            <a href="#hiphop">
+              <img src="../img/hiphop-icon.jpg">
+              <p>HIP-HOP</p>
+            </a>
           </div>
-        </footer>
-      <script src="../js/myscript.js"></script>
-  </body>
+          <div class="container">
+          <a href="#rock">
+            <img src="../img/rock-icon.jpg">
+            <p>ROCK</p>
+          </a>
+        </div>
+        <div class="container">
+        <a href="#country">
+          <img src="../img/country-icon.jpeg">
+          <p>COUNTRY</p>
+        </a>
+        </div>
+        <div class="container">
+          <a href="#punk">
+          <img src="../img/punk-icon.jpg">
+          <p>PUNK</p>
+          </a>
+        </div>
+        <div class="container">
+        <a href="#r&b">
+          <img src="../img/rb-icon.png">
+          <p>R&B</p>
+        </a>
+        </div>
+        <div class="container">
+        <a href="#rap">
+          <img src="../img/rap-icon.jpg">
+          <p>RAP</p>
+        </a>
+        </div>
+        </div>
+    </div>
+    <footer id="main-footer">
+        <div class="flex-container">
+          <div class="another-container">
+            <p><a href="contactos.html">Contactos</a></p>
+           <p>|</p>
+            <p><a href="termos.html">Termos e Privacidade</a></p>
+            <p>|</p>
+            <p><a href="subscrever.html">Subscrever</a></p>
+            <p>|</p>
+            <p><a href="categorias.html">Categorias</a></p>
+          </div>
+          <div class="container">
+            <p>O melhor jornal com as notícias dos seus músicos favoritos</p>
+            <p>Jornal... &copy; Todos os direitos reservados</p>
+          </div>
+        </div>
+    </footer>
+    <script src="../js/myscript.js"></script>
+</body>
 </html>
