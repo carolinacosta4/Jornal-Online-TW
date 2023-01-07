@@ -24,3 +24,87 @@ main{
   margin:0px;
   margin-right: 120px;
 }
+
+@media screen and (max-width: 480px){
+  #contactos{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #contactos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .more2 iframe{
+    width: 90%;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+  }
+
+}
+
+@media screen and (min-width: 480px){
+  #contactos{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1fr;
+    justify-content: space-evenly;
+  }
+
+  
+  .more2 iframe{
+    width: 80%;
+  }
+
+  .grid{
+    display: grid;
+    column-gap: 4px;
+    row-gap: 5px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  #contactos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .more2 iframe{
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 992px){
+  #contactos{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .more2 iframe{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .more2 iframe{
+    width: 90%;
+  }
+
+  .grid{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 5px;
+  }
+}
+
+@media screen and (min-width: 1900px){
+  
+}

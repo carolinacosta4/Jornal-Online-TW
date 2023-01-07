@@ -3,22 +3,21 @@
   grid-template-columns: 1fr 1fr;
 }
 
- .review-us, .reviews {
-  margin: 0 auto; 
-  max-width: 800px;
-  padding: 20px;
+ .review-us {
+  display: grid;
+  justify-content: center;
+}
+
+.estrelas{
+  margin-left: 50px;
 }
 
 main{
-  margin: 0 20px; 
-  max-width: 800px;
-  padding: 20px;
-  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-weight: lighter;
-  margin-right: 25px;
 }
 
 .avaliacao-container{
@@ -44,9 +43,6 @@ hr{
 .bar-2 {width: 15%; height: 18px; background-color: #000000;}
 .bar-1 {width: 4%; height: 18px; background-color: #000000;}
 
-form{
-    align-items: center;
-}
 
 hr{
   margin: 0px 30px;
@@ -56,28 +52,33 @@ hr{
 }
 
 .avaliacoes-utilizadores>h2{
-  margin-left: 232px;
+  text-align: center;
+}
+
+.avaliacoes-utilizadores{
+    display: grid;
+    justify-items: center;
 }
 
 .reviews{
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  display: flex;
+  margin-bottom:10px;
+  justify-content: center;
   column-gap: 10px;
+  width: 80%;
 }
 
 .card {
+  display: grid;
+  justify-content: center;
   border-radius: 5px;
-  width: 100%;
+  width: 60%;
   border: solid;
   border-width: 1px;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 0px 16px;
 }
 
 img {
