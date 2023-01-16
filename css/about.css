@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 480px){
+
+    main div{
+        margin-left: 6vh;
+        margin-right: 4vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    main div{
+        margin-left: 12vh;
+        margin-right: 8vh;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    main div{
+        margin-left: 18vh;
+        margin-right: 10vh;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    main div{
+        margin-left: 30vh;
+        margin-right: 10vh;
+    }
+}
