@@ -1,9 +1,8 @@
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
- .review-us {
+.review-us {
   display: grid;
   justify-content: center;
 }
@@ -33,10 +32,6 @@ h2 {
   color: white;
 }
 
-hr{
-  margin-bottom: 15px;
-}
-
 .bar-5 {width: 60%; height: 18px; background-color: #000000;}
 .bar-4 {width: 30%; height: 18px; background-color: #000000;}
 .bar-3 {width: 10%; height: 18px; background-color: #000000;}
@@ -45,6 +40,7 @@ hr{
 
 
 hr{
+  margin-bottom: 15px;
   margin: 0px 30px;
   border:solid;
   border-width: 2px;
@@ -58,6 +54,7 @@ hr{
 .avaliacoes-utilizadores{
     display: grid;
     justify-items: center;
+    margin-bottom: 40px;
 }
 
 .reviews{
@@ -85,3 +82,114 @@ img {
   border-radius: 5px 5px 0 0;
 }
 
+.card-container{
+  display: grid;
+  grid-template-rows: 30px 100px;
+  text-align: center;
+}
+
+
+
+@media screen and (min-width: 480px){
+
+  .estrelas{
+    margin-left: 4vh;
+    text-align: center;
+  }
+
+  .card{
+    width: 21vh;
+    height: 48vh;
+  }
+
+  .reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    column-gap: 2px;
+    row-gap: 18px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .grid{
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .card{
+    width: 180px;
+    height: 384px;
+  }
+
+  .card .card-container p{
+    font-size: 16px;
+  }
+
+  .card-container p{
+    margin: 4px;
+  }
+
+  .estrelas{
+    width: 550px;
+    margin-left: 18vh;
+  }
+
+  .reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 18px;
+  }
+}
+
+@media screen and (min-width: 992px){
+
+  .grid{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .card{
+    width: 250px;
+    height: 384px;
+  }
+
+  .card .card-container p{
+    font-size: 16px;
+  }
+
+  .card-container p{
+    margin: 4px;
+  }
+
+  .estrelas{
+    width: 550px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .reviews{
+    display: flex;
+    column-gap: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+
+  .card{
+    width: 250px;
+    height: 398px;
+  }
+
+  .card-container p{
+    margin: 8px;
+  }
+
+  .estrelas{
+    width: 600px;
+    margin-left: 100px;
+  }
+
+}
