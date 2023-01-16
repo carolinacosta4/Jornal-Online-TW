@@ -3,7 +3,7 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
     column-gap: 8px;
-    width: 70%;
+    width: 100%;
 }
 
 .categorias{
@@ -13,10 +13,6 @@
 
 .container img {
     border-radius: 20px;
-}
-
-.container{
-    place-self: center;
 }
 
 h2{
