@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <title>Jornal</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
               <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#account">Account</a>
-                <a href="#About">About</a>
+                <a href="/html/about.html">About</a>
                 <a href="html/categorias.html">Categorias</a>
                 <a href="html/clientes.html">Clientes</a>
                 <a href="html/contactos.html">Contactos</a>
@@ -61,26 +62,26 @@
     <div class="topnav">
         <a class="active" href="../index.html">HOME</a>
         <a href="/html/pop.html">POP</a>
-        <a href="#kpop">K-POP</a>
-        <a href="#hiphop">HIP-HOP</a>
-        <a href="#rock">ROCK</a>
+        <a href="/html/kpop.html">K-POP</a>
+        <a href="/html/hiphop.html">HIP-HOP</a>
+        <a href="/html/rock.html">ROCK</a>
         <div class="dropdown">
-            <button class="dropbtn">OUTROS</button>
-            <div class="dropdown-content">
-              <a href="#country">COUNTRY</a>
-              <a href="#punk">PUNK</a>
-              <a href="#r&b">R&B</a>
-              <a href="#rap">RAP</a>
+          <button class="dropbtn">OUTROS</button>
+          <div class="dropdown-content">
+            <a href="/html/country.html">COUNTRY</a>
+            <a href="/html/punk.html">PUNK</a>
+            <a href="/html/r&b.html">R&B</a>
+            <a href="/html/metal.html">METAL</a>
             </div>
         </div>      
     </div>
   </div>
-    <main>
+  <main>
         <section>
           <div class="mySlides">
             <p id="destaques">Destaques</p>
           <div class="grid-slideshow">
-            <a href="/html/noticia1.html" class="grid-slides">
+            <a href="/html/noticias/noticia1.html" class="grid-slides">
               <img alt= "image" src="img/index/noticia-destaque1.jpeg" class="slides-img">
               <section class="slides_grid">
                 <p>06 dezembro 22 - 3 min read</p>
@@ -114,7 +115,7 @@
           <div class="ultimas_noticias">
             <p>Últimas notícias</p>
           <div class="ultimas_grid">
-            <a href="/html/noticia2.html" class="titulos_ultimas">
+            <a href="/html/noticias/noticia2.html" class="titulos_ultimas">
               <img alt= "image" src="img/index/noticia-ultima1.jpeg">
               <p>29 Novembro 2022 - 3 min read</p>
                 <p><b>Lizzo estreia-se em Portugal nos NOS Alive de 2023</b></p>
@@ -180,24 +181,53 @@
         </div>
         <div><p></p></div>
       </section>
-    </main>
-    <footer id="main-footer">
-      <div class="flex-container">
-        <div class="another-container">
-          <p><a class="footer-links" href="html/contactos.html">Contactos</a></p>
-         <p>|</p>
-          <p><a class="footer-links" href="termos.html">Termos e Privacidade</a></p>
-          <p>|</p>
-          <p><a class="footer-links" href="subscrever.html">Subscrever</a></p>
-          <p>|</p>
-          <p><a class="footer-links" href="html/categorias.html">Categorias</a></p>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Jornal</h4>
+          <ul>
+            <li><a href="html/about.html">Sobre</a></li>
+            <li><a href="html/about.html#termos">Termos e Privacidade</a></li>
+            <li><a href="html/contactos.html">Contactos</a></li>
+            <li><a href="html/assinar.html">Assinar</a></li>
+            <li><a href="html/assinar.html#faq">Perguntas Frequentes</a></li>
+            <li><a href="html/clientes.html">Avaliações</a></li>
+            <li><a href="html/categorias.html">Categorias</a></li>
+          </ul>
+       </div>
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <ul>
+            <li><a href="html/pop.html">Pop</a></li>
+            <li><a href="html/kpop.html">K-Pop</a></li>
+            <li><a href="html/hiphop.html">Hip-Hop</a></li>
+            <li><a href="html/rock.html">Rock</a></li>
+            <li><a href="html/country.html">Country</a></li>
+            <li><a href="html/punk.html">Punk</a></li>
+            <li><a href="html/r&b.html">R&B</a></li>
+            <li><a href="html/metal.html">Metal</a></li>
+          </ul>
         </div>
-        <div class="container">
-          <p>O melhor jornal com as notícias dos seus músicos favoritos</p>
-          <p>Jornal... &copy; Todos os direitos reservados</p>
+        <div class="footer-col">
+          <h4>Quer receber emails nossos?</h4>
+          <form>
+            <input type='text' placeholder="enter your email" class="text"><br/>
+            <button role="button" onclick=subscribeFunction() class="subscribeBtn">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer-col">
+          <h4>Follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
     <script src="js/myscript.js"></script>
   </body>
 </html>

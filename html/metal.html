@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jornal</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Categoria Metal</title>
 </head>
 <body>
   <div class="navigation">
@@ -123,23 +124,52 @@
         </div>
         <div><p></p></div>
     </section>
-    <footer id="main-footer">
-      <div class="flex-container">
-        <div class="another-container">
-          <p><a href="contactos.html">Contactos</a></p>
-         <p>|</p>
-          <p><a href="termos.html">Termos e Privacidade</a></p>
-          <p>|</p>
-          <p><a href="subscrever.html">Subscrever</a></p>
-          <p>|</p>
-          <p><a href="categorias.html">Categorias</a></p>
-        </div>
-        <div class="container">
-          <p>O melhor jornal com as notícias dos seus músicos favoritos</p>
-          <p>Jornal... &copy; Todos os direitos reservados</p>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Jornal</h4>
+            <ul>
+              <li><a href="about.html">Sobre</a></li>
+              <li><a href="about.html#termos">Termos e Privacidade</a></li>
+              <li><a href="contactos.html">Contactos</a></li>
+              <li><a href="assinar.html">Assinar</a></li>
+              <li><a href="assinar.html#faq">Perguntas Frequentes</a></li>
+              <li><a href="clientes.html">Avaliações</a></li>
+              <li><a href="categorias.html">Categorias</a></li>
+            </ul>
+         </div>
+          <div class="footer-col">
+            <h4>Categorias</h4>
+            <ul>
+              <li><a href="pop.html">Pop</a></li>
+              <li><a href="kpop.html">K-Pop</a></li>
+              <li><a href="hiphop.html">Hip-Hop</a></li>
+              <li><a href="rock.html">Rock</a></li>
+              <li><a href="country.html">Country</a></li>
+              <li><a href="punk.html">Punk</a></li>
+              <li><a href="r&b.html">R&B</a></li>
+              <li><a href="metal.html">Metal</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Quer receber emails nossos?</h4>
+            <form>
+              <input type='text' placeholder="enter your email" class="text"><br/>
+              <button role="button" onclick=subscribeFunction() class="subscribeBtn">Subscribe</button>
+            </form>
+          </div>
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
         </div>
       </div>
-  </footer>
+    </footer>
       <script src="../js/myscript.js"></script>
     </body>
   </html>
