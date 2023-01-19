@@ -1,9 +1,5 @@
 .grid-categorias{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
-    column-gap: 8px;
-    width: 100%;
 }
 
 .categorias{
@@ -11,7 +7,11 @@
     justify-items: center;
 }
 
-.container img {
+.container-categorias{
+    text-align: center;
+}
+
+.container-categorias img {
     border-radius: 20px;
 }
 
