@@ -22,7 +22,7 @@ function carousel() {
 }
 
 function myFunction() {
-  document.getElementById("like").style.color = "#999999";
+  document.getElementById("like").style.color = "#33cc33";
 }
 
 function CopyText() {
@@ -64,3 +64,7 @@ function initPayPalButton() {
   }).render('#paypal-button-container');
 }
 initPayPalButton();
+
+function subscribeFunction() {
+  alert("Subscreveu ao nosso jornal com sucesso!")
+  }
