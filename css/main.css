@@ -194,11 +194,6 @@ img {
   height: auto;
 }
 
-footer * {
-  box-sizing: border-box;
-  justify-content: center;
-}
-
 .container{
   max-width: 1170px;
   margin:auto;
@@ -211,6 +206,13 @@ footer * {
 
 ul{
   list-style: none;
+  margin-left: 0px;
+}
+
+footer *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 .footer{
