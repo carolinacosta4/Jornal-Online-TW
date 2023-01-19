@@ -1,0 +1,172 @@
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    width: 16vh;
+}
+
+.conta{
+    display: block;
+    background:#fff;
+    margin: 20px 0px;
+    border-radius:4px;
+    text-align:center;
+    position:relative;
+    box-shadow: 0px 0px 28px rgba(0,0,0,.3);
+    overflow:hidden;
+}
+
+.editar, .assinaturas{
+    display: block;
+    background:#fff;
+    border-radius:4px;
+    box-shadow: 0px 0px 28px rgba(0,0,0,.3);
+    overflow:hidden;
+}
+
+.editar .heading{
+    color:#000;
+    font-size:24px;
+    margin-top:40px;
+}
+
+.editar div p{
+    font-size:14px;
+    color:#737373;
+    font-weight:lighter;
+    margin: 0px 6vh 2vh 6vh;
+}
+
+.editar .btn{
+    width:40%;
+    background:#b3b3b3;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    font-size:14px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.grid-edit form input {
+    background: #fff;
+    color: #060c22;
+    border: 1px solid;
+    outline: none;
+    margin-bottom: 0px;
+    padding: 6px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+  
+.editar button:hover, .copiar button:hover {
+    background-color: #24262b;
+}
+
+.grid-edit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-edit form{
+    display: grid;
+    margin: 2px 12px;
+}
+
+@media screen and (min-width: 480px){
+    
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 80vw;
+        height: 240vh;
+    }
+    
+    .conta{
+        width:400px;
+        height:400px;
+        justify-content: center;
+    }
+    
+    .editar, .assinaturas{
+        width:400px;
+        height:400px;
+        margin:20px 0px;
+    }
+
+    .grid-edit{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 80vw;
+        height: 180vh;
+    }
+    
+    .conta{
+        width:600px;
+        height:300px;
+    }
+    
+    .editar, .assinaturas{
+        width:600px;
+        height:300px;
+        margin:20px 0px;
+    }
+
+    .grid-edit{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px){
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        width: 76vw;
+        height: 100vh;
+    }
+    
+    .conta{
+        width:200px;
+        height:500px;
+    }
+    
+    .editar, .assinaturas{
+        width:500px;
+        height:240px;
+        margin:20px 0px;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    main{
+        width: 72vw;
+        height: 100vh;
+    }
+    
+    .conta{
+        width:300px;
+        height:500px;
+    }
+    
+    .editar, .assinaturas{
+        width:600px;
+        height:240px;
+    }
+}
