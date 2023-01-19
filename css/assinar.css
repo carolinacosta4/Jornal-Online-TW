@@ -1,0 +1,224 @@
+main h2{
+    text-align: center;
+}
+
+.box{
+    display: block;
+    background:#fff;
+    border-radius:4px;
+    text-align:center;
+    position:relative;
+    box-shadow: 0px 0px 28px rgba(0,0,0,.3);
+    overflow:hidden;
+}
+
+.box .heading{
+    color:#000;
+    font-size:24px;
+    margin-top:40px;
+}
+
+.box div p{
+    font-size:14px;
+    color:#737373;
+    font-weight:lighter;
+    margin: 0px 6vh 2vh 6vh;
+}
+
+.box .btn{
+    width:85%;
+    background:#b3b3b3;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    font-size:14px;
+    color:#fff;
+}
+
+.box .assinar{
+    margin-top: 90px;
+}
+
+.box .btn:hover{
+    cursor:pointer;
+    background-color: #24262b;
+}
+
+.preco{
+    margin-top: 50px;
+    font-weight: bold;
+    color:#595959;
+}
+
+.btn{
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.popup{
+    width: 400px;
+    background: #b3b3b3;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion{
+    width: 65%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.accordion .accordion-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.accordion .content-container .question{
+    padding: 18px 0px;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.accordion .content-container .question::after{
+    content:"+";
+    position: absolute;
+    right: -5px;
+}
+
+.accordion .content-container .answer{
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 1.5;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question{
+    font-size: 18px;
+    transition: .5s;
+}
+
+.accordion .content-container.active .question::after{
+    content: "-";
+    font-size: 30px;
+    transition: .5s;
+}
+
+@media screen and (min-width: 480px){
+    .box{
+        width:300px;
+        height:400px;
+        margin:20px 120px;
+    }
+    
+    .planos {
+        display: block;
+    }
+    
+    .preco{
+        font-size: 30px;
+    }
+    
+    .open-popup{
+        top: 80%;
+    }
+    
+    .accordion .content-container.active .answer{
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .box{
+        margin:20px 220px;
+    }
+    
+    .planos {
+        display: block;
+    }
+    
+    .open-popup{
+        top: 70%;
+    }
+    
+    .accordion .content-container.active .answer{
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .box{
+        width:400px;
+        height:400px;
+        margin:20px 40px;
+    }
+    
+    .planos {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .open-popup{
+        top: 60%;
+    }
+    
+    .accordion .content-container.active .answer{
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+}
