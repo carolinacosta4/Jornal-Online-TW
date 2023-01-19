@@ -5,9 +5,6 @@ main{
 
 #contactos{
   text-align:center;
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
   align-items: center;  
 }
 
@@ -15,7 +12,6 @@ main{
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  column-gap: 0px;
 }
 
 .grid p {
@@ -43,7 +39,6 @@ main{
   }
 
   .grid{
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     row-gap: 5px;
@@ -68,14 +63,9 @@ main{
   }
 
   .grid{
-    display: grid;
     column-gap: 4px;
-    row-gap: 5px;
   }
 
-  #contactos{
-    height: 80vh;
-  }
 }
 
 @media screen and (min-width: 768px){
