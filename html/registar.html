@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registar</title>
+    <link rel="stylesheet" href="css/registar.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Registe-se</h1>
+        <form id="register-form">
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Escreva o seu e-mail" data-min-leght="3"> 
+            </div>
+            <div class="half-box spacing">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Escreva o seu nome">
+            </div>
+            <div class="half-box">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Escreva o seu sobrenome">
+            </div>
+            <div class="half-box spacing">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Escreva a sua password">
+            </div>
+            <div class="half-box">
+                <label for="passwordconfirmation">Confirmação da password</label>
+                <input type="password" name="passwordconfirmation" id="passwordconfirmation" placeholder="Escreva novamente a sua password">
+            </div>
+            <div class="full-box">
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de uso</a></label>
+            </div>
+            <div class="full-box">
+                <input type="submit" id="btn-submit" value="Registar">
+            </div>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
