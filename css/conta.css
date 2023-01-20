@@ -5,6 +5,7 @@
 
 main{
     display: grid;
+    justify-content: center;
     text-align: center;
 }
 
@@ -87,8 +88,7 @@ img{
     main{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        width: 80vw;
-        height: 240vh;
+        height: 140vh;
     }
     
     .conta{
@@ -113,13 +113,12 @@ img{
     main{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        width: 80vw;
         height: 180vh;
     }
     
     .conta{
         width:600px;
-        height:300px;
+        height:500px;
     }
     
     .editar, .assinaturas{
@@ -137,7 +136,6 @@ img{
     main{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        width: 76vw;
         height: 100vh;
     }
     
@@ -157,7 +155,6 @@ img{
 @media screen and (min-width: 1200px){
     main{
         width: 72vw;
-        height: 100vh;
     }
     
     .conta{
