@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
     color: #323232;
     border: none;
 }
@@ -18,7 +17,7 @@ input:focus, label:focus {
 }
 
 a {
-    color: #5e86dd;
+    color: black;
 }
 
 body {
@@ -41,6 +40,12 @@ body {
     text-align: center;
     margin-bottom: 25px;
     font-size: 1.6 rem; /* adaptada ao elemento root */
+}
+
+#register-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 form {
@@ -75,19 +80,6 @@ input{
     margin-bottom: 40px;
 }
 
-input:focus {
-    border-color: #5e86dd;
-}
-
-input [type="submit"] {
-    background-color: #5e86dd;
-    color: #FFFF;
-    border: none;
-    border-radius: 20px;
-    height: 40px;
-    cursor: pointer;
-}
-
 #agreement {
     margin-right: 5px;  
 }
@@ -96,6 +88,38 @@ input [type="submit"] {
     display: inline-block;
     width: auto;
 } 
+
+.regBtn {
+    margin-top: 30px;
+    height: 40px;
+    padding: 9px 25px;
+    cursor: pointer;
+    background-color: #b3b3b3;
+    font-size: 14px;
+    border-radius: 5px;
+    border:none;
+    width: 200px;
+  }
+  
+.regBtn:hover{
+    background-color: #24262b;
+}
+
+.regBtn a{
+    text-align: center ;
+    text-transform: uppercase ;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#login-container p {
+    margin-bottom: 10px;
+}
+
+#login-container{
+    text-align: center;
+}
 
 /* Validações */
 .error-validation {

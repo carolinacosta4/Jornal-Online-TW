@@ -4,13 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica;
     color: #323232;
     border: none;
 }
 
 body {
-    background-image: url("../images/fundo2.jpg");
+    background-image: url("../img/fundo2.jpg");
     background-size: cover;
 }
 
@@ -65,7 +64,7 @@ input {
 }
 
 input:focus {
-    border-bottom: 2px solid #d3c7c7;
+    border-bottom: 2px solid;
 }
 
 #forgot-pass {
@@ -73,22 +72,28 @@ input:focus {
     display: block;
 }
 
-input[type="submit"] {
+.logBtn {
+    margin-top: 30px;
+    height: 40px;
+    padding: 9px 25px;
+    cursor: pointer;
+    background-color: #b3b3b3;
+    font-size: 14px;
+    border-radius: 5px;
+    border:none;
+    width: 200px;
+  }
+  
+.logBtn:hover{
+    background-color: #24262b;
+}
+
+.logBtn a{
     text-align: center ;
     text-transform: uppercase ;
     font-weight: bold;
-    border: none;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: 30px;
-    color: #FFFF;
-    background-color: #777171;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #363636 ;
-    transition: .5s;
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Registar */
