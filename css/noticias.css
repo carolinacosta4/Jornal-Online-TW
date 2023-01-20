@@ -102,7 +102,7 @@ hr{
     background-color: #24262b;
   }
 
-  .social-links a, .fa-thumbs-up a{
+  .socials-links a, .fa-thumbs-up a{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -115,7 +115,7 @@ hr{
     transition: all 0.5s ease;
   }
   
-.social-links a:hover, .fa-thumbs-up:hover{
+.socials-links a:hover, .fa-thumbs-up:hover{
     color: #24262b;
     background-color: #ffffff;
 }
@@ -313,7 +313,7 @@ hr{
     .more{
         width: 28vw;
         margin-left: 0px;
-        margin-right: 16px;
+        margin-right: 70px;
         margin-top: 120px;
     }
 
@@ -336,9 +336,8 @@ hr{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         font-size: 18px;
-        column-gap: 90px;
         margin-bottom: 20px;
-        column-gap: 70px;
+        column-gap: 60px;
     }
 
     .grid-container img{
