@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    <div id="login-container">
-        <h1>Login</h1>
-        <form action="">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Escreva o seu email" autocomplete="off">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" placeholder="Escreva a sua password">
-            <a href="#" id="forgot-pass">Esqueceu-se da sua password? </a>
-            <input type="submit" value="Login">
-        </form>
-        <div id="register-container">
-            <p>Ainda não tem conta?</p>
-            <a href="#">Registar</a>
+    <main>
+        <div id="login-container">
+            <h1>Login</h1>
+            <form>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Escreva o seu email" autocomplete="off">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Escreva a sua password">
+                <a href="#" id="forgot-pass">Esqueceu-se da sua password? </a>
+                <button role="button" class = "logBtn"><a href="../index.html">Login</a></button>
+            </form>
+            <div id="register-container">
+                <p>Ainda não tem conta?</p>
+                <a href="registar.html">Registar</a>
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 </html>
